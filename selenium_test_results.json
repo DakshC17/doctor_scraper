@@ -1,6 +1,329 @@
 [
   {
-    "name": "Bradley McCormack",
+    "name": "Eric Tan",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English",
+      "Mandarin\n              \n\n\nEric Is A Clinical Psychologist With Special Interests In:\n\nUnderstanding How Emotions Work",
+      "Using Methods To Transform Emotions Deeply",
+      "Quickly\nSupporting Adults From The Lgbtq Community\nSupporting Adults From Cald Communities Who Find That Culture",
+      "Language Do Affect Their Experiences Of Their Problems\nSupporting Clients With Psychological Issues Stemming From Complex Family-Of-Origin",
+      "Childhood Experiences"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/dr-eric-tan-1",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Sam Tan",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English",
+      "Mandarin\n              \n\n\nSam Is A Clinical Psychologist With Special Interests In Working To Support Adults:\n\nFrom Both The Straight",
+      "The Lgbtq Communities\nWith Psychological Issues Stemming From Complex Early Relationships With Their Caregivers",
+      "Childhood Difficulties"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/dr-sam-tan",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Lisa Kunde",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English\n              \n\n\nLisa Kunde Has Ten Years Experience Working As A Psychologist With Adults In Both Private",
+      "Public Hospital Settings (Oncology",
+      "Palliative Care",
+      "Chronic Pain",
+      "Cardio-Pulmonary",
+      "Psychiatric",
+      "Alcohol",
+      "Other Drugs Units)"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/lisa-kunde",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Marilia Libera",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English",
+      "Portuguese\n              \n\n\nDriven By Her Passion For Seeing People Feel Better",
+      "Achieve Results",
+      "Dr"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/dr-marilia-libera",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Eleanor Tan",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English",
+      "Mandarin\n              \n\n\nEleanor Is A Registered Clinical Psychologist With Five Years Of Extensive Experience Working With A Broad Range Of Mental Health Concerns",
+      "Diverse Clients To Provide Psychological Assessment",
+      "Intervention"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/eleanor-tan",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Michelle Scott",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English\n              \n\n\nMichelle Is A Caring",
+      "Compassionate Person Who Has Worked In Different Contexts With Clients From A Variety Of Cultural Backgrounds",
+      "Socio-Economic Contexts"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/michelle-scott",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Jeremy Vernon",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English\n              \n\n\nJeremy Is A Psychologist Who Works Hard To Understand His Clients’ Experiences Deeply – Who His Clients Are As People",
+      "Why There Are Experiencing The Struggles They Face In Their Lives",
+      "How Their Minds Work"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/jeremy-vernon",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Biyanka Komandur",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English\n              \n\n\nBiyanka Is A Registered Clinical Psychologist With Extensive Experience Working With Diverse Mental Health Concerns Across The Lifespan"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/biyanka-komandur-1",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Atholl Murray",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English\n              \n\n\nAtholl Is Passionate About Creating A Safe",
+      "Supportive Connection With Clients As The Basis For Therapeutic Work"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/dr-atholl-murray",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Eugene Lin",
     "title": "Dr.",
     "specialties": [],
     "qualifications": [],
@@ -9,204 +332,383 @@
     "bio": null,
     "rating": null,
     "review_count": null,
-    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors/mr-bradley-mccormack-1",
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/eugene-lin",
     "clinic_info": {
-      "clinic_name": "National Dental Care, Brisbane (CBD)",
+      "clinic_name": "Centre for Human Potential",
       "address": "a medical centre in Brisbane, QLD 4000",
       "suburb": "a medical centre in Brisbane",
       "state": "QLD",
       "postcode": "4000",
-      "phone": "+61732292051",
+      "phone": "+61732111117",
       "email": null,
       "website": null,
       "operating_hours": {},
       "services": [
-        "General Practice"
+        "General Practice",
+        "Mental Health"
       ],
       "bulk_billing": false,
       "parking": null,
       "accessibility": null,
-      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors"
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
     }
   },
   {
-    "name": "Priya Patel",
-    "title": "Dr",
-    "specialties": [],
-    "qualifications": [],
-    "languages": [],
-    "gender": null,
-    "bio": null,
-    "rating": null,
-    "review_count": null,
-    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors/dr-priya-patel",
-    "clinic_info": {
-      "clinic_name": "National Dental Care, Brisbane (CBD)",
-      "address": "a medical centre in Brisbane, QLD 4000",
-      "suburb": "a medical centre in Brisbane",
-      "state": "QLD",
-      "postcode": "4000",
-      "phone": "+61732292051",
-      "email": null,
-      "website": null,
-      "operating_hours": {},
-      "services": [
-        "General Practice"
-      ],
-      "bulk_billing": false,
-      "parking": null,
-      "accessibility": null,
-      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors"
-    }
-  },
-  {
-    "name": "Elizabeth Im",
-    "title": "Dr",
-    "specialties": [],
-    "qualifications": [],
-    "languages": [],
-    "gender": null,
-    "bio": "Dr Elizabeth Im graduated from Kings College London university in the UK in 2009, with a Bachelor's degree in Dental Surgery. After graduating, Dr Im spent her first year in the public sector of community dental in the UK, where she treated many anxious and medically compromised patients, sometimes with the adjunct of inhalation sedation. In Dr Im's second year, she worked in hospital as a Senior House officer in Oral and Maxillofacial Surgery. \nDr Im then migrated here to Australia where she has mainly worked in the private sector, but has also been a mentor for dental students in James Cook University in Cairns. Dr Im is passionate about all aspects of dentistry, and has a great interest in oral surgery and cosmetic dentistry, especially with the use of CAD-CAM technology to produce same day crowns and ceramic fillings. \nYou will find Dr Im has a caring and gentle nature combined with having a high regard for attention to detail, which ensures dedication in providing the most comprehensive care and pleasant treatment experience for all patients. \nOutside of dentistry Dr Im has a great passion for photography, international travel and trying out different cuisines that Brisbane has to offer.",
-    "rating": null,
-    "review_count": null,
-    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors/dr-elizabeth-im",
-    "clinic_info": {
-      "clinic_name": "National Dental Care, Brisbane (CBD)",
-      "address": "a medical centre in Brisbane, QLD 4000",
-      "suburb": "a medical centre in Brisbane",
-      "state": "QLD",
-      "postcode": "4000",
-      "phone": "+61732292051",
-      "email": null,
-      "website": null,
-      "operating_hours": {},
-      "services": [
-        "General Practice"
-      ],
-      "bulk_billing": false,
-      "parking": null,
-      "accessibility": null,
-      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors"
-    }
-  },
-  {
-    "name": "Rahal Kuruppu",
-    "title": "Dr",
-    "specialties": [],
-    "qualifications": [],
-    "languages": [],
-    "gender": null,
-    "bio": null,
-    "rating": null,
-    "review_count": null,
-    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors/dr-rahal-kuruppu-1",
-    "clinic_info": {
-      "clinic_name": "National Dental Care, Brisbane (CBD)",
-      "address": "a medical centre in Brisbane, QLD 4000",
-      "suburb": "a medical centre in Brisbane",
-      "state": "QLD",
-      "postcode": "4000",
-      "phone": "+61732292051",
-      "email": null,
-      "website": null,
-      "operating_hours": {},
-      "services": [
-        "General Practice"
-      ],
-      "bulk_billing": false,
-      "parking": null,
-      "accessibility": null,
-      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors"
-    }
-  },
-  {
-    "name": "Damian Lavery",
-    "title": "Dr",
-    "specialties": [],
-    "qualifications": [],
-    "languages": [],
-    "gender": null,
-    "bio": "Dr Lavery graduated from the University of Queensland as a dentist in 1997. Working as a general dentist since graduating, Dr Lavery has gained experience in public and private practice and has enjoyed applying himself to most aspects of dentistry, with a particular interest in orthodontics, Invisalign, cosmetic dentistry, and CAD (Computer Aided Design) / CAM (Computer Aided Manufacture) dental techniques including ceramic (Cerec) restoration. \nDr Lavery has been providing a mix of general dental and orthodontic treatment in Brisbane, Regional Queensland and Darwin practices. Dr Lavery is married with two young children and enjoys spending time at the beach when time allows.",
-    "rating": null,
-    "review_count": null,
-    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors/dr-damian-lavery-3",
-    "clinic_info": {
-      "clinic_name": "National Dental Care, Brisbane (CBD)",
-      "address": "a medical centre in Brisbane, QLD 4000",
-      "suburb": "a medical centre in Brisbane",
-      "state": "QLD",
-      "postcode": "4000",
-      "phone": "+61732292051",
-      "email": null,
-      "website": null,
-      "operating_hours": {},
-      "services": [
-        "General Practice"
-      ],
-      "bulk_billing": false,
-      "parking": null,
-      "accessibility": null,
-      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors"
-    }
-  },
-  {
-    "name": "Zoe Shih",
+    "name": "Chaminga Dhanapala",
     "title": "Dr.",
     "specialties": [],
     "qualifications": [],
-    "languages": [],
+    "languages": [
+      "English",
+      "Sinhalese\n              \n\n\nA Brisbane Cbd Couples Psychologist Available Evenings",
+      "Weekends",
+      "Chaminga Uses A Gentle",
+      "Client-Centered Therapeutic Approach To Help Create Lasting",
+      "Meaningful Changes In Her Clients’ Lives"
+    ],
     "gender": null,
     "bio": null,
     "rating": null,
     "review_count": null,
-    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors/ms-zoe-shih",
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/chaminga-dhanapala",
     "clinic_info": {
-      "clinic_name": "National Dental Care, Brisbane (CBD)",
+      "clinic_name": "Centre for Human Potential",
       "address": "a medical centre in Brisbane, QLD 4000",
       "suburb": "a medical centre in Brisbane",
       "state": "QLD",
       "postcode": "4000",
-      "phone": "+61732292051",
+      "phone": "+61732111117",
       "email": null,
       "website": null,
       "operating_hours": {},
       "services": [
-        "General Practice"
+        "General Practice",
+        "Mental Health"
       ],
       "bulk_billing": false,
       "parking": null,
       "accessibility": null,
-      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors"
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
     }
   },
   {
-    "name": "Alice Lee",
-    "title": "Dr.",
+    "name": "Delaney Skerrett",
+    "title": "Dr",
     "specialties": [],
     "qualifications": [],
-    "languages": [],
+    "languages": [
+      "English",
+      "Spanish\n              \n\n\nDelaney Is A Senior Registered Psychologist Working With People Of All Backgrounds",
+      "With A Special Interest In Lgbti+ People",
+      "People From Culturally",
+      "Linguistically Diverse Backgrounds",
+      "Indigenous People"
+    ],
     "gender": null,
     "bio": null,
     "rating": null,
     "review_count": null,
-    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors/ms-alice-lee-3",
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/dr-delaney-skerrett",
     "clinic_info": {
-      "clinic_name": "National Dental Care, Brisbane (CBD)",
+      "clinic_name": "Centre for Human Potential",
       "address": "a medical centre in Brisbane, QLD 4000",
       "suburb": "a medical centre in Brisbane",
       "state": "QLD",
       "postcode": "4000",
-      "phone": "+61732292051",
+      "phone": "+61732111117",
       "email": null,
       "website": null,
       "operating_hours": {},
       "services": [
-        "General Practice"
+        "General Practice",
+        "Mental Health"
       ],
       "bulk_billing": false,
       "parking": null,
       "accessibility": null,
-      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors"
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Alessandro (Alex) Suppini",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English",
+      "Italian\n              \n\n\nLex Works With Individuals",
+      "Couples",
+      "Families To Sort Out Their Relationship",
+      "Communications Dynamics"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/alessandro-alex-suppini",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Alexandra Deane",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English\n              \n\n\nAlexandra (Ali) Is A Warm",
+      "Empathic Psychologist Who Is Down-To-Earth",
+      "Relatable"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/alexandra-deane",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Georgia Marsh",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English\n              \n\n\nGeorgia Is A Provisional Psychologist Who Is Currently In The Penultimate Year Of Her Doctor Of Psychology (Clinical Psychology",
+      "Clinical Neuropsychology) At The University Of Queensland"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/georgia-marsh",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Kirsteen Bostock",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English\n              \n\n\nKirsteen Has Over Ten Years’ Experience Working As A Psychologist With Both Adults",
+      "Children In Both Private Practice",
+      "Within Primary",
+      "High School Settings"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/kirsteen-bostock",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Ravi Tewari",
+    "title": "Dr.",
+    "specialties": [
+      "Member Australian Health Practitioner Regulation Agency (AHPRA)"
+    ],
+    "qualifications": [
+      "AHPRA fully Registered Psychologist"
+    ],
+    "languages": [
+      "English\n              \n\n\nRavi Is A Clinical Psychologist With A Warm",
+      "Non-Judgmental Approach That Quickly Puts Clients At Ease"
+    ],
+    "gender": "Male",
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/ravi-tewari",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Jessica Cleasby",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English\n              \n\n\nJess Has A Masters Of Clinical Psychology As Well As A Masters Of Sexology From Curtin University"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/jessica-cleasby",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Cherie Sonnenburg",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English\n              \n\n\nCherie Is A Trauma-Informed Registered Psychologist With A Master Of Clinical Psychology"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/cherie-sonnenburg",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
+    }
+  },
+  {
+    "name": "Mitchell Chikwakukire",
+    "title": "Dr.",
+    "specialties": [],
+    "qualifications": [],
+    "languages": [
+      "English\n              \n\n\nAbout Mitchell\nMitchell Is Psychologist Who Adopts A Warm",
+      "Friendly Approach With An Aim To Make You Feel Safe",
+      "Heard",
+      "Understood Whilst Working Towards Meaningful Change"
+    ],
+    "gender": null,
+    "bio": null,
+    "rating": null,
+    "review_count": null,
+    "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/mitchell-chikwakukire",
+    "clinic_info": {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "suburb": "a medical centre in Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "phone": "+61732111117",
+      "email": null,
+      "website": null,
+      "operating_hours": {},
+      "services": [
+        "General Practice",
+        "Mental Health"
+      ],
+      "bulk_billing": false,
+      "parking": null,
+      "accessibility": null,
+      "clinic_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
     }
   }
 ]
