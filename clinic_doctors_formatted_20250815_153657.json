@@ -1,0 +1,379 @@
+{
+  "clinics": [
+    {
+      "clinic_name": "Centre for Human Potential",
+      "address": "a medical centre in Brisbane, QLD 4000",
+      "clinic_logo": "Not available",
+      "availability_opening_hours_and_closing_hours": "Not available",
+      "doctors": [
+        {
+          "name": "Dr. Eric Tan",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English",
+            "Mandarin"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/dr-eric-tan-1",
+          "bio": "Eric Is A Clinical Psychologist With Special Interests In: Understanding How Emotions Work",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Sam Tan",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English",
+            "Mandarin"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/dr-sam-tan",
+          "bio": "Sam Is A Clinical Psychologist With Special Interests In Working To Support Adults: From Both The Straight",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Lisa Kunde",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/lisa-kunde",
+          "bio": "Lisa Kunde Has Ten Years Experience Working As A Psychologist With Adults In Both Private",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Marilia Libera",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Not specified"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English",
+            "Portuguese"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/dr-marilia-libera",
+          "bio": "Driven By Her Passion For Seeing People Feel Better",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Eleanor Tan",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English",
+            "Mandarin"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/eleanor-tan",
+          "bio": "Eleanor Is A Registered Clinical Psychologist With Five Years Of Extensive Experience Working With A Broad Range Of Mental Health Concerns",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Michelle Scott",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Not specified"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/michelle-scott",
+          "bio": "Compassionate Person Who Has Worked In Different Contexts With Clients From A Variety Of Cultural Backgrounds",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Jeremy Vernon",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/jeremy-vernon",
+          "bio": "Jeremy Is A Psychologist Who Works Hard To Understand His Clients’ Experiences Deeply – Who His Clients Are As People",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Biyanka Komandur",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/biyanka-komandur-1",
+          "bio": "Biyanka Is A Registered Clinical Psychologist With Extensive Experience Working With Diverse Mental Health Concerns Across The Lifespan",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Atholl Murray",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Not specified"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/dr-atholl-murray",
+          "bio": "Atholl Is Passionate About Creating A Safe",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Eugene Lin",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Not specified"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/eugene-lin",
+          "bio": "Not available",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Chaminga Dhanapala",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English",
+            "Sinhalese"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/chaminga-dhanapala",
+          "bio": "A Brisbane Cbd Couples Psychologist Available Evenings",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr Delaney Skerrett",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English",
+            "Spanish"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/dr-delaney-skerrett",
+          "bio": "Delaney Is A Senior Registered Psychologist Working With People Of All Backgrounds",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Alessandro (Alex) Suppini",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Not specified"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English",
+            "Italian"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/alessandro-alex-suppini",
+          "bio": "Lex Works With Individuals",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Alexandra Deane",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Not specified"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/alexandra-deane",
+          "bio": "Not available",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Georgia Marsh",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/georgia-marsh",
+          "bio": "Georgia Is A Provisional Psychologist Who Is Currently In The Penultimate Year Of Her Doctor Of Psychology (Clinical Psychology",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Kirsteen Bostock",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/kirsteen-bostock",
+          "bio": "Kirsteen Has Over Ten Years’ Experience Working As A Psychologist With Both Adults",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Ravi Tewari",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Member Australian Health Practitioner Regulation Agency (AHPRA)"
+          ],
+          "qualifications": [
+            "AHPRA fully Registered Psychologist"
+          ],
+          "gender": "Male",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/ravi-tewari",
+          "bio": "Ravi Is A Clinical Psychologist With A Warm",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Jessica Cleasby",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/jessica-cleasby",
+          "bio": "Jess Has A Masters Of Clinical Psychology As Well As A Masters Of Sexology From Curtin University",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Cherie Sonnenburg",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/cherie-sonnenburg",
+          "bio": "Cherie Is A Trauma-Informed Registered Psychologist With A Master Of Clinical Psychology",
+          "rating": "Not available",
+          "reviews": "Not available"
+        },
+        {
+          "name": "Dr. Mitchell Chikwakukire",
+          "contact_number": "+61732111117",
+          "specialisation": [
+            "Clinical Psychology"
+          ],
+          "qualifications": [
+            "Not available"
+          ],
+          "gender": "Not available",
+          "languages": [
+            "English"
+          ],
+          "profile_url": "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors/mitchell-chikwakukire",
+          "bio": "About Mitchell Mitchell Is Psychologist Who Adopts A Warm",
+          "rating": "Not available",
+          "reviews": "Not available"
+        }
+      ]
+    }
+  ]
+}
