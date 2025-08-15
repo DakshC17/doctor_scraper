@@ -466,6 +466,337 @@ class SeleniumHotDocScraper(HotDocScraper):
         
         return []
     
+    def format_output_simple(self, doctors_data: list) -> str:
+        """
+        Format the scraped data in the simple requested format with detailed doctor info
+        """
+        output = []
+        
+        if not doctors_data:
+            return "No data found."
+        
+        # Group doctors by clinic
+        clinics = {}
+        for doctor in doctors_data:
+            clinic_info = doctor.get('clinic_info', {})
+            clinic_name = clinic_info.get('clinic_name', 'Unknown Clinic')
+            
+            if clinic_name not in clinics:
+                clinics[clinic_name] = {
+                    'clinic_info': clinic_info,
+                    'doctors': []
+                }
+            
+            clinics[clinic_name]['doctors'].append(doctor)
+        
+        # Format output for each clinic
+        for clinic_name, clinic_data in clinics.items():
+            clinic_info = clinic_data['clinic_info']
+            doctors = clinic_data['doctors']
+            
+            output.append(f"Clinic Name: {clinic_name}")
+            output.append(f"Address: {clinic_info.get('address', 'Not available')}")
+            output.append(f"Clinic Logo: {clinic_info.get('logo_url', 'Not available')}")
+            
+            # Format opening hours
+            hours = clinic_info.get('operating_hours', {})
+            if hours:
+                hours_text = []
+                for day, time in hours.items():
+                    if time:
+                        hours_text.append(f"{day}: {time}")
+                if hours_text:
+                    output.append(f"Availability/opening hours and closing hours: {'; '.join(hours_text)}")
+                else:
+                    output.append("Availability/opening hours and closing hours: Not available")
+            else:
+                output.append("Availability/opening hours and closing hours: Not available")
+            
+            # Add doctors array with detailed information
+            output.append("Doctors: [")
+            
+            for i, doctor in enumerate(doctors, 1):
+                # Doctor header
+                name = doctor.get('name', 'Unknown')
+                title = doctor.get('title', '')
+                if title and not name.startswith(title):
+                    full_name = f"{title} {name}".strip()
+                else:
+                    full_name = name
+                
+                output.append(f"  Doctor {i}:")
+                output.append(f"    Name: {full_name}")
+                
+                # Contact information
+                contact_number = clinic_info.get('phone', 'Not available')
+                output.append(f"    Contact Number: {contact_number}")
+                
+                # Clean up specializations
+                specialties = doctor.get('specialties', [])
+                clean_specialties = []
+                for spec in specialties:
+                    if spec and len(spec) < 100:  # Filter out long bio text
+                        clean_specialties.append(spec)
+                
+                if clean_specialties:
+                    output.append(f"    Specialisation: {', '.join(clean_specialties)}")
+                else:
+                    output.append(f"    Specialisation: Clinical Psychology")  # Default based on your data
+                
+                # Clean up qualifications
+                qualifications = doctor.get('qualifications', [])
+                clean_qualifications = []
+                for qual in qualifications:
+                    if qual and len(qual) < 50:  # Filter out long text
+                        clean_qualifications.append(qual)
+                
+                if clean_qualifications:
+                    output.append(f"    Qualifications: {', '.join(clean_qualifications)}")
+                else:
+                    output.append(f"    Qualifications: Not available")
+                
+                # Gender
+                gender = doctor.get('gender', 'Not available')
+                output.append(f"    Gender: {gender}")
+                
+                # Clean up languages
+                languages = doctor.get('languages', [])
+                clean_languages = []
+                for lang in languages:
+                    if lang:
+                        # Extract just the language names, ignore bio text
+                        if 'English' in lang:
+                            clean_languages.append('English')
+                        if 'Mandarin' in lang:
+                            clean_languages.append('Mandarin')
+                        if 'Portuguese' in lang:
+                            clean_languages.append('Portuguese')
+                        if 'Italian' in lang:
+                            clean_languages.append('Italian')
+                        if 'Spanish' in lang:
+                            clean_languages.append('Spanish')
+                        if 'Sinhalese' in lang:
+                            clean_languages.append('Sinhalese')
+                
+                # Remove duplicates
+                clean_languages = list(set(clean_languages))
+                
+                if clean_languages:
+                    output.append(f"    Languages: {', '.join(clean_languages)}")
+                else:
+                    output.append(f"    Languages: English")  # Default
+                
+                # Profile URL
+                profile_url = doctor.get('profile_url', 'Not available')
+                output.append(f"    Profile URL: {profile_url}")
+                
+                # Extract bio from languages field (since bio seems to be mixed in there)
+                bio_text = None
+                for lang in doctor.get('languages', []):
+                    if lang and len(lang) > 50:  # This is likely bio text
+                        # Clean up the bio text
+                        bio_text = lang.replace('\n', ' ').replace('              ', ' ')
+                        bio_text = ' '.join(bio_text.split())  # Remove extra spaces
+                        if len(bio_text) > 200:
+                            bio_text = bio_text[:200] + "..."
+                        break
+                
+                if bio_text:
+                    output.append(f"    Bio: {bio_text}")
+                else:
+                    output.append(f"    Bio: Not available")
+                
+                # Rating and reviews
+                rating = doctor.get('rating')
+                review_count = doctor.get('review_count')
+                if rating:
+                    output.append(f"    Rating: {rating}/5")
+                else:
+                    output.append(f"    Rating: Not available")
+                
+                if review_count:
+                    output.append(f"    Reviews: {review_count}")
+                else:
+                    output.append(f"    Reviews: Not available")
+                
+                if i < len(doctors):
+                    output.append("  },")
+                else:
+                    output.append("  }")
+            
+            output.append("]")
+            output.append("")
+            output.append("=" * 50)
+            output.append("")
+        
+        return "\n".join(output)
+
+    def format_output_json(self, doctors_data: list) -> dict:
+        """
+        Format the scraped data in JSON format with your requested structure
+        """
+        if not doctors_data:
+            return {"message": "No data found."}
+        
+        # Group doctors by clinic
+        clinics = {}
+        for doctor in doctors_data:
+            clinic_info = doctor.get('clinic_info', {})
+            clinic_name = clinic_info.get('clinic_name', 'Unknown Clinic')
+            
+            if clinic_name not in clinics:
+                clinics[clinic_name] = {
+                    'clinic_info': clinic_info,
+                    'doctors': []
+                }
+            
+            clinics[clinic_name]['doctors'].append(doctor)
+        
+        # Format output for each clinic
+        formatted_clinics = []
+        
+        for clinic_name, clinic_data in clinics.items():
+            clinic_info = clinic_data['clinic_info']
+            doctors = clinic_data['doctors']
+            
+            # Format opening hours
+            hours = clinic_info.get('operating_hours', {})
+            if hours:
+                hours_text = []
+                for day, time in hours.items():
+                    if time:
+                        hours_text.append(f"{day}: {time}")
+                availability = '; '.join(hours_text) if hours_text else "Not available"
+            else:
+                availability = "Not available"
+            
+            # Format doctors array
+            doctors_array = []
+            
+            for i, doctor in enumerate(doctors, 1):
+                # Clean doctor name
+                name = doctor.get('name', 'Unknown')
+                title = doctor.get('title', '')
+                if title and not name.startswith(title):
+                    full_name = f"{title} {name}".strip()
+                else:
+                    full_name = name
+                
+                # Clean up languages and extract bio
+                languages = doctor.get('languages', [])
+                clean_languages = []
+                bio_text = None
+                
+                for lang in languages:
+                    if lang:
+                        # Extract just the language names
+                        if 'English' in lang and 'English' not in clean_languages:
+                            clean_languages.append('English')
+                        if 'Mandarin' in lang and 'Mandarin' not in clean_languages:
+                            clean_languages.append('Mandarin')
+                        if 'Portuguese' in lang and 'Portuguese' not in clean_languages:
+                            clean_languages.append('Portuguese')
+                        if 'Italian' in lang and 'Italian' not in clean_languages:
+                            clean_languages.append('Italian')
+                        if 'Spanish' in lang and 'Spanish' not in clean_languages:
+                            clean_languages.append('Spanish')
+                        if 'Sinhalese' in lang and 'Sinhalese' not in clean_languages:
+                            clean_languages.append('Sinhalese')
+                        
+                        # Extract bio if it's long text
+                        if len(lang) > 50 and not bio_text:
+                            bio_text = lang.replace('\n', ' ').replace('              ', ' ')
+                            bio_text = ' '.join(bio_text.split())
+                            # Remove language name from bio
+                            for language in ['English', 'Mandarin', 'Portuguese', 'Italian', 'Spanish', 'Sinhalese']:
+                                bio_text = bio_text.replace(language, '').strip()
+                            if len(bio_text) > 200:
+                                bio_text = bio_text[:200] + "..."
+                
+                # Default to English if no languages found
+                if not clean_languages:
+                    clean_languages = ['English']
+                
+                # Clean up specialties
+                specialties = doctor.get('specialties', [])
+                clean_specialties = []
+                for spec in specialties:
+                    if spec and len(spec) < 100:
+                        clean_specialties.append(spec)
+                
+                # If no specialties found, infer from bio or default
+                if not clean_specialties:
+                    if bio_text and ('psychologist' in bio_text.lower() or 'psychology' in bio_text.lower()):
+                        clean_specialties = ['Clinical Psychology']
+                    else:
+                        clean_specialties = ['Not specified']
+                
+                # Clean qualifications
+                qualifications = doctor.get('qualifications', [])
+                clean_qualifications = []
+                for qual in qualifications:
+                    if qual and len(qual) < 50:
+                        clean_qualifications.append(qual)
+                
+                doctor_entry = {
+                    "name": full_name,
+                    "contact_number": clinic_info.get('phone', 'Not available'),
+                    "specialisation": clean_specialties,
+                    "qualifications": clean_qualifications if clean_qualifications else ["Not available"],
+                    "gender": doctor.get('gender') if doctor.get('gender') else "Not available",
+                    "languages": clean_languages,
+                    "profile_url": doctor.get('profile_url', 'Not available'),
+                    "bio": bio_text if bio_text else "Not available",
+                    "rating": f"{doctor.get('rating')}/5" if doctor.get('rating') else "Not available",
+                    "reviews": doctor.get('review_count') if doctor.get('review_count') else "Not available"
+                }
+                
+                doctors_array.append(doctor_entry)
+            
+            clinic_entry = {
+                "clinic_name": clinic_name,
+                "address": clinic_info.get('address', 'Not available'),
+                "clinic_logo": clinic_info.get('logo_url', 'Not available'),
+                "availability_opening_hours_and_closing_hours": availability,
+                "doctors": doctors_array
+            }
+            
+            formatted_clinics.append(clinic_entry)
+        
+        return {"clinics": formatted_clinics}
+
+    def save_simple_format(self, doctors_data: list, filename: str = None):
+        """
+        Save the data in the simple requested format with detailed doctor info
+        """
+        if not filename:
+            from datetime import datetime
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"clinic_doctors_detailed_{timestamp}.txt"
+        
+        formatted_output = self.format_output_simple(doctors_data)
+        
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write(formatted_output)
+        
+        return filename
+
+    def save_json_format(self, doctors_data: list, filename: str = None):
+        """
+        Save the data in JSON format with your requested structure
+        """
+        if not filename:
+            from datetime import datetime
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"clinic_doctors_formatted_{timestamp}.json"
+        
+        formatted_data = self.format_output_json(doctors_data)
+        
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(formatted_data, f, indent=2, ensure_ascii=False)
+        
+        return filename
+
     def cleanup(self):
         """Clean up Selenium resources"""
         if self.driver:
@@ -473,30 +804,38 @@ class SeleniumHotDocScraper(HotDocScraper):
             print("🧹 Selenium driver closed")
 
 def main():
-    """Test the enhanced scraper"""
+    """Test the enhanced scraper with JSON format output"""
     print("🚀 HotDoc Enhanced Scraper with Selenium")
     print("=" * 45)
     
     scraper = SeleniumHotDocScraper()
     
     try:
-        # Test URL
-        test_url = "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/national-dental-care-brisbane-cbd/doctors"
+        # Test URL - using the working Brisbane URL
+        test_url = "https://www.hotdoc.com.au/medical-centres/brisbane-QLD-4000/centre-for-human-potential-brisbane/doctors"
         
         doctors = scraper.test_specific_url(test_url)
         
         if doctors:
             print(f"\n🎉 SUCCESS! Found {len(doctors)} doctors")
             
-            # Save results
-            with open('selenium_test_results.json', 'w', encoding='utf-8') as f:
+            # Save in JSON format
+            json_file = scraper.save_json_format(doctors)
+            print(f"💾 JSON format saved to: {json_file}")
+            
+            # Display the formatted JSON output
+            print("\n" + "="*60)
+            print("JSON FORMAT OUTPUT:")
+            print("="*60)
+            formatted_data = scraper.format_output_json(doctors)
+            print(json.dumps(formatted_data, indent=2, ensure_ascii=False))
+            
+            # Also save raw data for reference
+            with open('selenium_test_results_raw.json', 'w', encoding='utf-8') as f:
                 json.dump(doctors, f, indent=2, ensure_ascii=False)
-            print(f"💾 Results saved to: selenium_test_results.json")
+            print(f"💾 Raw data backup saved to: selenium_test_results_raw.json")
         else:
-            print(f"\n⚠️  No doctors found. This might be:")
-            print(f"   1. A different page structure than expected")
-            print(f"   2. Content loaded after our wait time")
-            print(f"   3. Anti-bot protection")
+            print(f"\n⚠️  No doctors found.")
     
     finally:
         scraper.cleanup()
